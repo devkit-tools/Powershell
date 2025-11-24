@@ -1,0 +1,2 @@
+Get-ChildItem -Path C:\ -Filter flag.txt -Recurse -ErrorAction SilentlyContinue
+Get-ChildItem -Path C:\ -Filter *lag.txt -Recurse -ErrorAction SilentlyContinue
