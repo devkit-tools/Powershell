@@ -1,0 +1,1 @@
+Get-ProcessMitigation -Id <PID> | Select-Object -ExpandProperty Protection
