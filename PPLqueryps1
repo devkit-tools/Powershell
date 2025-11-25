@@ -1,1 +1,22 @@
 Get-ProcessMitigation -Id <PID> | Select-Object -ExpandProperty Protection
+
+
+
+Decode-Tabelle: Welche Werte bedeuten was?
+
+Windows codiert PPL als:
+
+Signer (Wer hat’s signiert?)
+
+Level (Light oder Full)
+
+Type (Antimalware, LSA, WinTcb etc.)
+
+✔️ Signer-Typen
+
+WinTcb	            Höchster System-Level (Kernel-nah)
+WinSystem	          Systemprozesse
+Lsa	                LSASS & LSA-Module
+Antimalware	        EDR / AV
+App	                Signierte Apps
+None	              Keine PPL
